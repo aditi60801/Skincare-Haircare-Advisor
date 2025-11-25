@@ -45,6 +45,23 @@ Everything is stored in simple dictionaries (ingredients_db, product_db, home_re
         No external libraries, therefore easy to read, easy to modify.
 
 
+# Project Strcucture 
+  skincare-haircare-advisor/
+│
+│── database/
+│     ├── product_db.py
+│     ├── ingredients_db.py
+│     ├── remedies_db.py
+│
+│── main.py
+│── README.md
+
+  Explanation:
+database/ →  It contains all datasets (products, ingredients, remedies)
+main.py →It contaisn the  main program that imports the database and runs the advisor
+README.md → It conatins the project documentation
+
+
 
 # Tech Stack
    Python 3.x
@@ -54,6 +71,18 @@ Everything is stored in simple dictionaries (ingredients_db, product_db, home_re
    Python should be  installed on your system (3.8+ recommended)
    A code editor like VS Code would make things easier 
 
+# How to run the Project 
+  1. Install Python
+     Ensure Python 3 is installed.
+     Check version :  python --version
+
+  2. Download the project
+     Clone from github : https://github.com/aditi60801/Skincare-Haircare-Advisor.git
+  3. Navigate into the folder
+     cd skincare-haircare-advisor
+  4. Run the program
+     
+   
 # How It Works
     User selects age , gender , experience and  skin type i.e."oily", "dry", "combination", "normal"
     Program displays  the corresponding List of actives → from ingredients_db 
